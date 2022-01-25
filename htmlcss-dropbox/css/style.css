@@ -10,3 +10,77 @@ clearfix::after{
     display:table;
     clear:both;
 }
+/* tools classes */
+.container{
+    width:90%;
+    margin:0 auto;
+    max-width:1180;
+    min-width:820;
+    border-bottom: 1px solid gray
+}
+
+.float-sx{
+    float: left;
+}
+
+.float-dx{
+    float:right;
+}
+
+/* inizio stile */
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    line-height: 70px;
+    height:60px;
+
+}
+
+.header-right{
+    width:50%;  
+    text-align:right;
+}
+
+.header-left{
+    width:50%;
+}
+
+nav{
+    display: inline-block;
+}
+
+nav ul li {
+    display:inline;
+    list-style-type: none;
+    margin-right:20px;
+}
+
+nav ul li a {
+    text-decoration:none;
+    color: rgb(7, 6, 6);
+    font-size:0.80rem;
+}
+
+.logo{
+    padding:0 10px;
+    display: inline-block;
+}
+
+.button{
+    background-color: rgb(40,95,246);
+    display:inline;
+    padding:3px 15px;
+    color: white;
+}
+
+#jumbotron{
+    background-color:rgb(185, 207, 229);
+    width:100%;
+    min-height:550px;
+}
+
+
+
