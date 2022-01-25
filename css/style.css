@@ -5,12 +5,18 @@
     padding:0;
 }
 /* FLOAT MANAGER */
-clearfix::after{
+.clearfix::after{
     content: "";
     display:table;
     clear:both;
 }
 /* tools classes */
+
+.relative {
+    position:relative;
+    
+}
+
 .container{
     width:90%;
     margin:0 auto;
@@ -35,7 +41,7 @@ body{
 
 header {
     line-height: 70px;
-    height:60px;
+    height:70px;
 
 }
 
@@ -50,6 +56,7 @@ header {
 
 nav{
     display: inline-block;
+    line-height: 60px;
 }
 
 nav ul li {
@@ -67,6 +74,8 @@ nav ul li a {
 .logo{
     padding:0 10px;
     display: inline-block;
+    vertical-align:middle;
+    padding-bottom:3px;
 }
 
 .button{
@@ -82,5 +91,59 @@ nav ul li a {
     min-height:550px;
 }
 
+.jumbotron-left {
+    
+}
+
+#jumbotron h1{
+    font-size:3.5rem;
+    font-weight:700;
+    width:100%;
+    margin-bottom:40px;
+    
+    
+}
+
+#jumbotron a:link{
+    text-decoration:none;
+    font-size:0.8rem;
+    
+}
 
 
+
+
+
+.jumbo-left-text{
+    width:400px;
+    font-weight:400;
+    font-size:14px;
+    text-align:left;
+    color: rgb(7,6,6);
+    padding-bottom:20px;
+}
+
+.small-text{
+    font-size:0.8rem;
+    margin-top:10px;
+    padding-bottom:40px;
+}
+
+.fas{
+    font-size: 2rem;
+}
+
+#jumbotron .small-text{
+    font-size:0.6rem;
+}
+
+#jumbotron .centered-content {
+    position: absolute;
+    top:20%;
+    left:10%;
+    width:80%;
+}
+
+.jumbotron-right img{
+    width:70%;
+}
