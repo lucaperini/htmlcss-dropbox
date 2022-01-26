@@ -18,9 +18,9 @@
 }
 
 .container{
-    width:90%;
+    width:60%;
     margin:0 auto;
-    max-width:1180px;
+    max-width:1900px;
     min-width:820px;
     
 }
@@ -81,7 +81,7 @@ nav ul li a {
 .drop-button{
     background-color: rgb(40,95,246);
     display:inline;
-    padding:3px 15px;
+    padding:4px 15px;
     color: white;
 }
 
@@ -106,6 +106,24 @@ nav ul li a {
     font-size:0.8rem;
     margin-top:10px;
     padding-bottom:40px;
+}
+
+.small-text-plan{
+    font-size:0.75rem;
+    
+}
+
+.small-text-plan a:link{
+    text-decoration: none;
+}
+
+.margine {
+    text-align:center;
+
+}
+
+.drop-buy-link{
+    text-align:left;
 }
 
 .fas{
@@ -150,22 +168,28 @@ section#jumbotron .centered-content .jumbotron-left {
 }
 
 section#drop-business {
-    height:800px;
-    
+    height:1200px;
     width:100%;
 }
 
 section#drop-business .standard-plan{
-    width: calc(60% - 100px) / 3;
-    margin:0 50px;
+    width: calc((100% / 3) - 20px);
+    margin:0 10px;
     border:1px solid lightgrey;
     padding:0 20px 50px 20px;
 }
 
-section#drop-business .professional-plan, section#drop-business .advanced-plan{
-    width:20%;
+section#drop-business .professional-plan{
+    width: calc(100% / 3);
     border:1px solid lightgrey;
     padding:0 20px 50px 20px;
+    
+}
+
+section#drop-business .advanced-plan{
+    width: calc(100% / 3);
+    border:1px solid lightgrey;
+    padding:0 20px 68px 20px;
     
 }
 
@@ -183,7 +207,7 @@ section#drop-business .professional-plan .user-plan, section#drop-business .stan
     text-align:center;
     padding:0px;
     border-bottom:1px solid lightgrey;
-    width:100%;
+  
 }
 
 section#drop-business .professional-plan ul, section#drop-business .standard-plan ul,
@@ -215,13 +239,26 @@ section#drop-business .advanced-plan ul li{
     
     margin-bottom:20px;
 
-    position:relative;
-    left:20%;
+    width:60%;
+    
+    margin: 0 auto 0 auto
     
     
 }
+.header-drop-business .drop-radio p {
+    margin-right:20px;
+} 
 
-.header-drop-business .drop-radio{
-padding-right:20px;
+.main-drop-business{
+    margin-bottom: 30px;
+}
 
+section#drop-business .enterprise-plan{
+    width:60%;
+    height:300px;
+    border: 1px solid lightgrey;
+    background-color:chartreuse;
+    
+
+    
 }
