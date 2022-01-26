@@ -20,9 +20,9 @@
 .container{
     width:90%;
     margin:0 auto;
-    max-width:1180;
-    min-width:820;
-    border-bottom: 1px solid gray
+    max-width:1180px;
+    min-width:820px;
+    
 }
 
 .float-sx{
@@ -30,7 +30,7 @@
 }
 
 .float-dx{
-    float:right;
+    float: right;
 }
 
 /* inizio stile */
@@ -112,13 +112,13 @@ nav ul li a {
     font-size: 2rem;
 }
 
-#jumbotron{
+section#jumbotron {
     background-color:rgb(185, 207, 229);
     width:100%;
     min-height:760px;
 }
 
-#jumbotron h1{
+section#jumbotron h1{
     font-size:4.2rem;
     font-weight:700;
     width:100%;
@@ -126,17 +126,17 @@ nav ul li a {
     width:90%;
 }
 
-#jumbotron a:link{
+section#jumbotron a:link{
     text-decoration:none;
     font-size:0.8rem;
     
 }
 
-#jumbotron .small-text{
+section#jumbotron .small-text{
     font-size:0.7rem;
 }
 
-#jumbotron .centered-content {
+section#jumbotron .centered-content {
     position: absolute;
     top:20%;
     left:10%;
@@ -144,7 +144,84 @@ nav ul li a {
     
 }
 
-#jumbotron .centered-content .jumbotron-left {
+section#jumbotron .centered-content .jumbotron-left {
     width:25%;
     
+}
+
+section#drop-business {
+    height:800px;
+    
+    width:100%;
+}
+
+section#drop-business .standard-plan{
+    width: calc(60% - 100px) / 3;
+    margin:0 50px;
+    border:1px solid lightgrey;
+    padding:0 20px 50px 20px;
+}
+
+section#drop-business .professional-plan, section#drop-business .advanced-plan{
+    width:20%;
+    border:1px solid lightgrey;
+    padding:0 20px 50px 20px;
+    
+}
+
+section#drop-business .professional-plan .title-plan{
+    margin-bottom:20px;
+}
+
+h2{
+    font-size: 2rem;
+    margin-bottom:50px;
+    
+}
+
+section#drop-business .professional-plan .user-plan, section#drop-business .standard-plan .user-plan, section#drop-business .advanced-plan .user-plan{
+    text-align:center;
+    padding:0px;
+    border-bottom:1px solid lightgrey;
+    width:100%;
+}
+
+section#drop-business .professional-plan ul, section#drop-business .standard-plan ul,
+section#drop-business .advanced-plan ul{
+    padding-top:30px;
+    margin-left:20px;
+}
+
+section#drop-business .professional-plan ul li, section#drop-business .standard-plan ul li,
+section#drop-business .advanced-plan ul li{
+    margin-bottom:10px;
+    list-style-type: none;
+    width:70%;
+}
+
+
+
+.user-plan p {
+    padding-bottom: 15px;
+}
+
+.price-plan{
+    font-weight:500;
+}
+
+
+.header-drop-business {
+    padding-top:120px;
+    
+    margin-bottom:20px;
+
+    position:relative;
+    left:20%;
+    
+    
+}
+
+.header-drop-business .drop-radio{
+padding-right:20px;
+
 }
