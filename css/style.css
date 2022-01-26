@@ -83,6 +83,16 @@ nav ul li a {
     display:inline;
     padding:4px 15px;
     color: white;
+    text-decoration:none;
+}
+
+.drop-button-enterprise{
+    background-color: rgb(40,95,246);
+    display:inline;
+    padding:4px 30px;
+    color: white;
+    margin-left:60px;
+    text-decoration:none;
 }
 
 .jumbotron-right{
@@ -102,7 +112,7 @@ nav ul li a {
     padding-bottom:20px;
 }
 
-.small-text{
+.small-text {
     font-size:0.8rem;
     margin-top:10px;
     padding-bottom:40px;
@@ -158,8 +168,6 @@ section#jumbotron .centered-content {
     position: absolute;
     top:20%;
     left:10%;
-    
-    
 }
 
 section#jumbotron .centered-content .jumbotron-left {
@@ -203,6 +211,15 @@ h2{
     
 }
 
+h3{
+    margin-top:20px;
+}
+
+a:link{
+    color:  rgb(40,95,246);
+    font-weight:bold;
+}
+
 section#drop-business .professional-plan .user-plan, section#drop-business .standard-plan .user-plan, section#drop-business .advanced-plan .user-plan{
     text-align:center;
     padding:0px;
@@ -223,16 +240,22 @@ section#drop-business .advanced-plan ul li{
     width:70%;
 }
 
-
+.user-plan{
+    border-bottom:1px solid lightgray;
+    padding:5px 0;
+    height:30px;
+    width:100%
+}
 
 .user-plan p {
     padding-bottom: 15px;
+    text-align:center;
+    vertical-align: center;
 }
 
 .price-plan{
     font-weight:500;
 }
-
 
 .header-drop-business {
     padding-top:120px;
@@ -255,10 +278,53 @@ section#drop-business .advanced-plan ul li{
 
 section#drop-business .enterprise-plan{
     width:60%;
-    height:300px;
+    height:200px;
     border: 1px solid lightgrey;
-    background-color:chartreuse;
+    margin:0 auto;
+    vertical-align: baseline;
+}
+
+.enterprise-dx{
+    width:50%;
     
+}
+
+.small-text-enterprise{
+    padding-bottom:5px;
+    font-size:0.7rem;
+    text-align:right;
+    
+}
+
+.enterprise-sx{
+    width: 35%;
 
     
+}
+
+h4 {
+    font-size:1.2rem;
+    margin-bottom: 10px;
+}
+
+.enterprise-content{
+    position: relative;
+    left:25px;
+    top:25px;
+}
+
+.enterprise-subtitle{
+    font-size: 0.8rem;
+    font-weight:bold;
+    color:black;
+}
+
+.enterprise-text{
+    margin-top:30px;
+    
+}
+
+.drop-best{
+    border-top:1px solid lightgray;
+    width:100%;
 }
