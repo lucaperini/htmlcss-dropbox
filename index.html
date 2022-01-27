@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;700&display=swap" rel="stylesheet">
-
+    <!-- Custom Style -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -55,7 +55,6 @@
     </section>
     
     <section id="drop-business">
-        
         <div class="header-drop-business">
             <h2>Trova il piano Dropbox Business che fa per te</h2>
                 <div class="drop-radio small-text">
@@ -67,26 +66,30 @@
         <main class="main-drop-business clearfix container relative">
             <div class="professional-plan float-sx">
                 <div class="user-plan small-text">
-                    <p>Singolo</p>
+                    <p><span><i class="fas fa-user"></i></span>Singolo</p>
                 </div>
                 <h3 class="title-plan">Professional</h3>
                 <p class="price-plan">19,99 &euro;</p>
-                <p class="small-text">/mese</p>
+                <p class="small-text mese">/mese</p>
                 <div class="offerings-plan small-text">
-                    <p>1 utente</p>
-                    <p>3 TB di spazio di archivio sicuro</p>
-                    <p>Funzioni di produttività premium e condivisione file semplice e sicura</p>
+                    <ul>
+                        <li><span><i class="fas fa-user"></i></span>1 utente</li>
+                        <li><span><i class="fas fa-folder"></i></span>3 TB di spazio di archivio sicuro</li>
+                        <li><span><i class="fas fa-pencil-alt"></i></span>Funzioni di produttività premium e condivisione file semplice e sicura</li>
+                    </ul>
                 </div>
                 <a class="drop-button small-text-plan" href="#">Prova gratis per 30 giorni</a>
                 <p class="small-text">oppure <a class="small-text" href="#">acquista ora</a></p>
-                <hr>
-                <h4>Punti salienti del piano</h4>
+                
+                <div class="user-plan small-text">
+                    <h4>Punti salienti del piano</h4>
+                </div>
                 <ul class="small-text"> 
-                    <li><span>&check;</span>Invia file fino a 100 giga con Dropbox Transfert</li>
-                    <li>Cartelle offline su dispositivi mobili</li>
-                    <li>Pulizia remota dell'account</li>
-                    <li>Filigrana documento</li>
-                    <li>Assistenza prioritaria via email e chat</li>
+                    <li><span><i class="fas fa-check"></i></span>Invia file fino a 100 giga con Dropbox Transfert</li>
+                    <li><span><i class="fas fa-check"></i></span>Cartelle offline su dispositivi mobili</li>
+                    <li><span><i class="fas fa-check"></i></span>Pulizia remota dell'account</li>
+                    <li><span><i class="fas fa-check"></i></span>Filigrana documento</li>
+                    <li><span><i class="fas fa-check"></i></span>Assistenza prioritaria via email e chat</li>
                 </ul>
             </div>
             <div class="standard-plan float-sx">
@@ -106,11 +109,11 @@
                 <div class="drop-best">
                     <h4>Punti salienti del piano</h4>
                 <ul class="small-text">
-                    <li><span>&check;</span>Invia file fino a 100 giga con Dropbox Tranfsert</li>
-                    <li>Cartelle offline su dispositivi mobili</li>
-                    <li>Pulizia remota dell'account</li>
-                    <li>Filigrana documento</li>
-                    <li>Assistenza prioritaria via email e chat</li>
+                    <li><span><i class="fas fa-check"></i></span>Invia file fino a 100 giga con Dropbox Transfert</li>
+                    <li><span><i class="fas fa-check"></i></span>Cartelle offline su dispositivi mobili</li>
+                    <li><span><i class="fas fa-check"></i></span>Pulizia remota dell'account</li>
+                    <li><span><i class="fas fa-check"></i></span>Filigrana documento</li>
+                    <li><span><i class="fas fa-check"></i></span>Assistenza prioritaria via email e chat</li>
                 </ul>
                 </div>
                 
@@ -132,15 +135,15 @@
                 <hr width="100%">
                 <h4>Punti salienti del piano</h4>
                 <ul class="small-text">
-                    <li><span>&check;</span>Invia file fino a 100 giga con Dropbox Transfert</li>
-                    <li>Cartelle offline su dispositivi mobili</li>
-                    <li>Pulizia remota dell'account</li>
-                    <li>Filigrana documento</li>
-                    <li>Assistenza prioritaria via email e chat</li>
+                    <li><span><i class="fas fa-check"></i></span>Invia file fino a 100 giga con Dropbox Transfert</li>
+                    <li><span><i class="fas fa-check"></i></span>Cartelle offline su dispositivi mobili</li>
+                    <li><span><i class="fas fa-check"></i></span>Pulizia remota dell'account</li>
+                    <li><span><i class="fas fa-check"></i></span>Filigrana documento</li>
+                    <li><span><i class="fas fa-check"></i></span>Assistenza prioritaria via email e chat</li>
                 </ul>
             </div>
-                
         </main>
+        
         <div class="enterprise-plan">
             <div class="user-plan small-text">
                 <p>Team</p>
@@ -154,18 +157,25 @@
             <div class="enterprise-sx float-dx">
                 <a class="drop-button-enterprise small-text-enterprise" href="#">Contatta l'ufficio vendite</a>
             </div>
-            </div>
             
-        </div>
-         
-        
-
+</div>
     </section>
-    <section class="drop-partner"></section>
-    <section class="drop-services"></section>
-    <section class="drop-team"></section>
-    <section class="drop-trial"></section>
-    <section class="drop-faq"></section>
+    <section id="drop-partner">
+        <div class="container clearfix">
+            <div class="partner-image float-sx">
+                <img src="img/partner.png" alt="dropbox partner">
+            </div>
+            <div class="partner-text float-sx" >
+                <h4>Entra in contatto con un partner Dropbox</h4>
+                <p>Trova un partner Dropbox e HelloSign di fiducia. Ottieni le soluzioni e i servizi necessari per raggiungere i tuoi obiettivi aziendali, tra cui implementazione, integrazione, gestione e supporto continui.</p>
+                <a class="drop-button-partner" href="#">Trova un partner</a>
+            </div>
+        </div>
+    </section>
+    <section id="drop-services"></section>
+    <section id="drop-team"></section>
+    <section id="drop-trial"></section>
+    <section id="drop-faq"></section>
     <footer>
         <div class="top-footer"></div>
         <div class="bottom-lang-footer"></div>
