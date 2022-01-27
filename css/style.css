@@ -187,10 +187,10 @@ section#drop-business .standard-plan{
     padding:0 20px 50px 20px;
 }
 
-section#drop-business .professional-plan{
+.professional-plan{
     width: calc(100% / 3);
     border:1px solid lightgrey;
-    padding:0 20px 50px 20px;
+    padding:0 20px 70px 20px;
     
 }
 
@@ -207,7 +207,7 @@ section#drop-business .professional-plan .title-plan{
 
 h2{
     font-size: 2rem;
-    margin-bottom:50px;
+    margin-top:50px;
     
 }
 
@@ -217,7 +217,7 @@ h3{
 
 a:link{
     color:  rgb(40,95,246);
-    font-weight:bold;
+    /* font-weight:bold; */
 }
 
 section#drop-business .professional-plan .user-plan, section#drop-business .standard-plan .user-plan, section#drop-business .advanced-plan .user-plan{
@@ -227,11 +227,11 @@ section#drop-business .professional-plan .user-plan, section#drop-business .stan
   
 }
 
-section#drop-business .professional-plan ul, section#drop-business .standard-plan ul,
+/* section#drop-business .professional-plan ul, section#drop-business .standard-plan ul,
 section#drop-business .advanced-plan ul{
     padding-top:30px;
     margin-left:20px;
-}
+} */
 
 section#drop-business .professional-plan ul li, section#drop-business .standard-plan ul li,
 section#drop-business .advanced-plan ul li{
@@ -245,6 +245,7 @@ section#drop-business .advanced-plan ul li{
     padding:5px 0;
     height:30px;
     width:100%
+    
 }
 
 .user-plan p {
@@ -254,7 +255,11 @@ section#drop-business .advanced-plan ul li{
 }
 
 .price-plan{
-    font-weight:500;
+    font-weight:bold;
+}
+
+.price-plan .mese p{
+    color: white;
 }
 
 .header-drop-business {
@@ -289,6 +294,8 @@ section#drop-business .enterprise-plan{
     
 }
 
+
+
 .small-text-enterprise{
     padding-bottom:5px;
     font-size:0.7rem;
@@ -304,8 +311,11 @@ section#drop-business .enterprise-plan{
 
 h4 {
     font-size:1.2rem;
+    margin-top:10px;
     margin-bottom: 10px;
 }
+
+
 
 .enterprise-content{
     position: relative;
@@ -328,3 +338,66 @@ h4 {
     border-top:1px solid lightgray;
     width:100%;
 }
+
+span .fas{
+    font-size:0.8rem;
+    color:rgb(40,95,246);
+    margin-right:5px;
+}
+
+
+
+.partner-image{
+    width:55%;
+
+}
+
+.partner-image img{
+
+    width:100%;
+
+}
+
+
+
+
+section#drop-partner{
+    width:100%;
+    padding-top: 250px;
+}
+
+.partner-text{
+    width:45%;
+    margin-top:20px;
+}
+
+.partner-text h4{
+    margin: 20px 40px;
+    width:100%;
+    
+}
+
+.partner-text p {
+    font-size: 0.7rem;
+    font-weight:600;
+    line-height:20px;
+    margin: 20px 30px 20px 40px;
+    
+}
+
+.drop-button-partner  {
+    background-color: white;
+    border: 1px solid black;
+    text-decoration: none;
+    padding: 6px 15px;
+    
+}
+
+.partner-text a {
+    font-size:0.8rem;
+    font-weight:600;
+    margin-left:40px;
+    text-decoration:none;
+    color:black;
+}
+
