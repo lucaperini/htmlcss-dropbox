@@ -127,10 +127,7 @@ nav ul li a {
     text-decoration: none;
 }
 
-.margine {
-    text-align:center;
 
-}
 
 .drop-buy-link{
     text-align:left;
@@ -176,7 +173,7 @@ section#jumbotron .centered-content .jumbotron-left {
 }
 
 section#drop-business {
-    height:1200px;
+    
     width:100%;
 }
 
@@ -374,7 +371,7 @@ span .fas{
 
 section#drop-partner{
     width:100%;
-    padding-top: 250px;
+    
     margin-top:100px;
 }
 
@@ -411,5 +408,40 @@ section#drop-partner{
     margin-left:40px;
     text-decoration:none;
     color:black;
+}
+
+
+
+.drop-first-feature{
+    width: 30%
+}
+
+.drop-first-feature p{
+    width: 80%;
+}
+
+.drop-second-feature{
+    width: 30%;
+} 
+    
+    
+.drop-third-feature{
+    width: 30%;
+}
+
+
+.feature-image img{
+    width: 100%;
+}
+
+.feature-text{
+    font-size: 0.8rem;
+    
+    
+}
+
+.container-feature{
+    width: 70%;
+    margin:0 auto;
 }
 
