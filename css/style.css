@@ -448,8 +448,6 @@ section#drop-partner{
 
 .team-wrapper{
     height:400px;
-    
-    /* background-color:lime; */
 }
 
 .box-sx{
@@ -468,7 +466,7 @@ section#drop-partner{
 .middle-box{
     width:40%;
     height:400px;
-    background-color:gray
+    background-color: rgba(245,245,245,255);
 }
 
 .box-logo-one{
@@ -519,19 +517,58 @@ section#drop-partner{
     background-color:rgba(255,217,44,255);
 }
 
-
-
 .logo-team{
     width:60%;
     position:absolute;
     top:50%;
     left:50%;
     transform: translate(-50%, -50%);
+    fill:white;
     
 }
 
-.logo-team .arizona {
-    fill:white;
-    width:80%;
+section#drop-team {
+    padding-top: 120px;
+    padding-bottom:120px;
+    
+    
+    
+}
 
+section#drop-team .header-team {
+    width:50%;
+    margin-bottom:30px;
+    padding-bottom: 60px;
+}
+
+.main-team{
+    position:absolute;
+    width:20%;
+    top:30px;
+    left:40px;
+}
+
+.team-text{
+    position:absolute;
+    width:80%;
+    top:120px;
+    left:40px;
+    font-weight: 400;
+}
+
+.team-quote, .team-author-quote {
+    font-size:0.9rem;
+    margin-top:30px;
+}
+
+.team-author-quote{
+    margin-top:60px;
+}
+
+.mini-divider-team{
+    width:50px;
+    color:lightgray;
+    position:absolute;
+    top:100px;
+    left:40px;
 }
