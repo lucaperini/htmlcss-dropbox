@@ -207,12 +207,21 @@ section#drop-business .professional-plan .title-plan{
 
 h2{
     font-size: 2rem;
-    margin-top:50px;
+    margin-top:80px;
+    margin-bottom:60px;
     
 }
 
 h3{
     margin-top:20px;
+    
+}
+
+.mini-divider{
+    width:50px;
+    margin-top:0px;
+    
+    border: 1 px solid lightgray;
 }
 
 a:link{
@@ -222,9 +231,13 @@ a:link{
 
 section#drop-business .professional-plan .user-plan, section#drop-business .standard-plan .user-plan, section#drop-business .advanced-plan .user-plan{
     text-align:center;
-    padding:0px;
-    border-bottom:1px solid lightgrey;
+    /* padding:0px;
+    border-bottom:1px solid lightgrey; */
   
+}
+
+.user-plan{
+    border-bottom:1px solid lightgray;
 }
 
 /* section#drop-business .professional-plan ul, section#drop-business .standard-plan ul,
@@ -346,12 +359,10 @@ span .fas{
 }
 
 
-
 .partner-image{
     width:55%;
 
 }
-
 .partner-image img{
 
     width:100%;
@@ -364,6 +375,7 @@ span .fas{
 section#drop-partner{
     width:100%;
     padding-top: 250px;
+    margin-top:100px;
 }
 
 .partner-text{
