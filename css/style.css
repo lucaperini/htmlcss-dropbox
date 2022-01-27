@@ -446,3 +446,92 @@ section#drop-partner{
     margin:0 auto;
 }
 
+.team-wrapper{
+    height:400px;
+    
+    /* background-color:lime; */
+}
+
+.box-sx{
+    width:30%;
+    height:400px;
+    background-color:black;
+
+}
+
+.box-dx{
+    width: 30%;
+    height:400px;
+    background-color:red;
+}
+
+.middle-box{
+    width:40%;
+    height:400px;
+    background-color:gray
+}
+
+.box-logo-one{
+    width:50%;
+    height:50%;
+    background-color: rgba(209,234,206,255);
+}
+
+.box-logo-second{
+    width:50%;
+    height:50%;
+    background-color: rgba(97,2,39,255);
+}
+
+.box-logo-third{
+    width:50%;
+    height:50%;
+    background-color: rgba(0,148,207,255);
+}
+
+.box-logo-fourth{
+    width:50%;
+    height:50%;
+    background-color: rgba(255,22,22,255);
+}
+
+.box-logo-wbr{
+    width:50%;
+    height:50%;
+    background-color:rgba(214,0,25,255)
+}
+
+.box-logo-hearst{
+    width:50%;
+    height:50%;
+    background-color:rgba(181,209,232,255);
+}
+
+.box-logo-lonely-planet{
+    width:50%;
+    height:50%;
+    background-color:rgba(5,31,130,255);
+}
+
+.box-logo-clear-channell{
+    width:50%;
+    height:50%;
+    background-color:rgba(255,217,44,255);
+}
+
+
+
+.logo-team{
+    width:60%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.logo-team .arizona {
+    fill:white;
+    width:80%;
+
+}
