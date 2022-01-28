@@ -25,6 +25,8 @@
     
 }
 
+
+
 .container-footer{
     width:82%;
     margin:0 auto;
@@ -62,6 +64,8 @@ h4 {
     margin-top:10px;
     margin-bottom: 10px;
 }
+
+
 
 header {
     line-height: 70px;
@@ -163,6 +167,7 @@ nav ul li a {
 
 .fas{
     font-size: 2rem;
+    
 }
 
 section#jumbotron {
@@ -203,21 +208,21 @@ section#jumbotron .centered-content .jumbotron-left {
 
 
 section#drop-business .standard-plan{
-    width: calc((100% / 3) - 20px);
-    margin:0 10px;
+    width: 30%;
+    margin:0 40px;
     border:1px solid lightgrey;
-    padding:0 20px 50px 20px;
+    /* padding:0 20px 50px 20px; */
 }
 
 .professional-plan{
-    width: calc(100% / 3);
+    width: 30%;
     border:1px solid lightgrey;
-    padding:0 20px 70px 20px;
+    /* padding:0 20px 70px 20px; */
     
 }
 
-section#drop-business .advanced-plan{
-    width: calc(100% / 3);
+.advanced-plan{
+    width: 30%;
     border:1px solid lightgrey;
     padding:0 20px 68px 20px;
     
@@ -252,6 +257,10 @@ section#drop-business .professional-plan .user-plan, section#drop-business .stan
 
 .user-plan{
     border-bottom:1px solid lightgray;
+}
+
+.user-plan{
+    width:100%;
 }
 
 /* section#drop-business .professional-plan ul, section#drop-business .standard-plan ul,
@@ -525,7 +534,7 @@ section#drop-partner{
     top:50%;
     left:50%;
     transform: translate(-50%, -50%);
-    fill:white;
+    filter: invert(100%);
     
 }
 
