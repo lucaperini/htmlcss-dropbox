@@ -206,19 +206,28 @@ section#jumbotron .centered-content .jumbotron-left {
 }
 
 
-
 section#drop-business .standard-plan{
     width: 30%;
     margin:0 40px;
+    padding-bottom:20px;
     border:1px solid lightgrey;
     /* padding:0 20px 50px 20px; */
+}
+
+.drop-pay{
+    margin-right:20px;
 }
 
 .professional-plan{
     width: 30%;
     border:1px solid lightgrey;
+    
     /* padding:0 20px 70px 20px; */
     
+}
+
+.professional-column{
+    margin-left: 25px;
 }
 
 .advanced-plan{
@@ -308,9 +317,14 @@ section#drop-business .advanced-plan ul li{
     margin: 0 auto 0 auto
 }
 
-.header-drop-business .drop-radio p {
+.header-drop-business .drop-radio  {
+    display:inline-block;
     margin-right:20px;
 } 
+
+.header-drop-business .drop-radio-border{
+    
+}
 
 .main-drop-business{
     margin-bottom: 30px;
@@ -366,7 +380,7 @@ section#drop-business .enterprise-plan{
 
 span .fas{
     font-size:0.8rem;
-    color:rgb(40,95,246);
+    color: black;
     margin-right:5px;
 }
 
