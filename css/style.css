@@ -338,8 +338,6 @@ section#drop-business .advanced-plan ul li{
     font-weight:bold;
 }
 
-
-
 .header-drop-business {
     padding-top:120px;
     
@@ -663,11 +661,18 @@ section#drop-faq{
 
 .row-faq{
     border-top:0.5px solid lightgray;
-    border-bottom:0.5px solid lightgray;
+    /* border-bottom:0.5px solid lightgray; */
     padding-top:20px;
     padding-bottom:20px;
     margin-bottom:0px;
+}
 
+.row-faq .last{
+    border-bottom:0.5px solid lightgray;
+    padding-bottom:20px;
+    margin-top:40px;
+    width:100%;
+    
 }
 
 /* .drop-text{
