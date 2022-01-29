@@ -25,13 +25,6 @@
     
 }
 
-.container-footer{
-    width:82%;
-    margin:0 auto;
-    max-width:1900px;
-    min-width:820px;
-}
-
 .float-sx{
     float: left;
 }
@@ -82,7 +75,6 @@ header {
 }
 
 header a:hover{
-    /* background-color:lightgray; */
     border-bottom: 5px solid rgb(55, 94, 237);
     width:10px;
     height:70px;
@@ -115,6 +107,37 @@ nav ul li a {
     font-size:0.80rem;
 }
 
+.small-text-plan{
+    font-size:0.75rem;
+    
+}
+
+.small-text-plan a:link{
+    text-decoration: none;
+}
+
+.drop-buy-link{
+    text-align:left;
+}
+
+.far {
+    margin-right:5px;
+}
+
+.fas{
+    font-size: 2rem;
+    
+}
+.mini-divider{
+    width:50px;
+    margin-top:0px;
+    border: 1 px solid lightgray;
+}
+
+
+
+/* definizione header e menù di navigazione */
+
 .header-right{
     width:50%;  
     text-align:right;
@@ -139,14 +162,7 @@ nav ul li a {
     text-decoration:none;
 }
 
-.drop-button-enterprise{
-    background-color: rgb(40,95,246);
-    display:inline;
-    padding:4px 30px;
-    color: white;
-    margin-left:60px;
-    text-decoration:none;
-}
+/* definizione sezione principale */
 
 .jumbotron-right{
     width:75%;
@@ -169,24 +185,6 @@ nav ul li a {
     font-size:0.7rem;
     margin-top:10px;
     padding-bottom:40px;
-}
-
-.small-text-plan{
-    font-size:0.75rem;
-    
-}
-
-.small-text-plan a:link{
-    text-decoration: none;
-}
-
-.drop-buy-link{
-    text-align:left;
-}
-
-.fas{
-    font-size: 2rem;
-    
 }
 
 section#jumbotron {
@@ -224,13 +222,13 @@ section#jumbotron .centered-content .jumbotron-left {
     
 }
 
+/* definizione sezione price-plan offerta dropbox */
+
 
 section#drop-business .standard-plan{
     width: 30%;
-    margin:0 40px;
-    /* padding-bottom:72px; */
+    margin:0 42px;
     border:1px solid lightgrey;
-    /* padding:0 20px 50px 20px; */
 }
 
 .drop-pay{
@@ -241,12 +239,11 @@ section#drop-business .standard-plan{
     width: 30%;
     border:1px solid lightgrey;
     padding-bottom:50px;
-    /* padding-bottom:100px; */
 }
 
 .professional-column{
     margin-left: 30px;
-    padding-bottom:77px;
+    padding-bottom:78px;
 }
 
 .standard-column{
@@ -262,35 +259,20 @@ section#drop-business .standard-plan{
 .advanced-plan{
     width: 30%;
     border:1px solid lightgrey;
-    /* padding-bottom:40px; */
-    /* padding:0 20px 68px 20px; */
+    
+}
+
+span .check-blue {
+    color:blue;
+}
+
+p.small-text.mese{
+    color:gray;
 }
 
 section#drop-business .professional-plan .title-plan, section#drop-business .standard-plan .title-plan, section#drop-business .advanced-plan .title-plan{
     margin-bottom:20px;
 }
-
-.mini-divider{
-    width:50px;
-    margin-top:0px;
-    border: 1 px solid lightgray;
-}
-
-.mini-divider-footer{
-    width:102px;
-    border-bottom: 1 px solid lightgray;
-}
-
-/* a:link{
-    color:  rgb(40,95,246);
-    
-}*/
-
-/* section#drop-business .professional-plan .user-plan, section#drop-business .standard-plan .user-plan, section#drop-business .advanced-plan .user-plan{
-    text-align:center;
-    padding:0px;
-    border-bottom:1px solid lightgrey; 
-} */
 
 .user-plan{
     border-bottom:1px solid lightgray;
@@ -299,12 +281,6 @@ section#drop-business .professional-plan .title-plan, section#drop-business .sta
 .user-plan{
     width:100%;
 }
-
-/* section#drop-business .professional-plan ul, section#drop-business .standard-plan ul,
-section#drop-business .advanced-plan ul{
-    padding-top:30px;
-    margin-left:20px;
-} */
 
 section#drop-business .professional-plan ul li, section#drop-business .standard-plan ul li,
 section#drop-business .advanced-plan ul li{
@@ -315,10 +291,7 @@ section#drop-business .advanced-plan ul li{
     padding-bottom:20px;
     font-size:10px;
     text-indent: -10px;
-    
 }
-
-
 
 .user-plan{
     border-bottom:1px solid lightgray;
@@ -340,11 +313,8 @@ section#drop-business .advanced-plan ul li{
 
 .header-drop-business {
     padding-top:120px;
-    
     margin-bottom:20px;
-
     width:60%;
-    
     margin: 0 auto 0 auto
 }
 
@@ -363,11 +333,24 @@ section#drop-business .enterprise-plan{
     border: 1px solid lightgrey;
     margin:0 auto;
     vertical-align: baseline;
+    max-width:1180
+}
+
+.drop-button-enterprise{
+    background-color: rgb(40,95,246);
+    display:inline;
+    padding:4px 30px;
+    color: white;
+    margin-left:60px;
+    text-decoration:none;
 }
 
 .enterprise-dx{
     width:50%;
-    
+}
+
+.enterprise-sx{
+    width: 35%;
 }
 
 .small-text-enterprise{
@@ -375,10 +358,6 @@ section#drop-business .enterprise-plan{
     font-size:0.7rem;
     text-align:right;
     
-}
-
-.enterprise-sx{
-    width: 35%;
 }
 
 .enterprise-content{
@@ -412,12 +391,13 @@ span .fas{
 
 .partner-image{
     width:55%;
-
 }
 
 .partner-image img{
     width:100%;
 }
+
+/* definizione sezione partner */
 
 section#drop-partner{
     width:100%;
@@ -459,6 +439,8 @@ section#drop-partner{
     text-decoration:none;
     color:black;
 }
+
+/* definizione sezione servizi */
 
 .drop-first-feature{
     width: calc(100% / 3)
@@ -574,16 +556,6 @@ section#drop-partner{
     
 }
 
-section#drop-team {
-    padding-top: 120px;
-}
-
-section#drop-team .header-team {
-    width:50%;
-    margin-bottom:30px;
-    padding-bottom: 60px;
-}
-
 .main-team{
     position:absolute;
     width:20%;
@@ -615,6 +587,18 @@ section#drop-team .header-team {
     top:100px;
     left:40px;
 }
+
+section#drop-team {
+    padding-top: 120px;
+}
+
+section#drop-team .header-team {
+    width:50%;
+    margin-bottom:30px;
+    padding-bottom: 60px;
+}
+
+/* definizione sezione contattaci per prova gratutia */
 
 section#drop-trial{
     width:100%;
@@ -648,11 +632,8 @@ section#drop-trial{
     margin-left:200px;
 }
 
-section#drop-faq{
-    width:100%;
-    padding-top:100px;
-    padding-bottom:80px;
-}
+/* definizione sezione FAQ */
+
 
 .faq-title{
     font-size: 1.6rem;
@@ -661,7 +642,6 @@ section#drop-faq{
 
 .row-faq{
     border-top:0.5px solid lightgray;
-    /* border-bottom:0.5px solid lightgray; */
     padding-top:20px;
     padding-bottom:20px;
     margin-bottom:0px;
@@ -675,10 +655,6 @@ section#drop-faq{
     
 }
 
-/* .drop-text{
-    margin-top:0.5em;
-} */
-
 .drop-text h5{
     margin-top:10px;
     margin-bottom:10px;
@@ -689,6 +665,21 @@ section#drop-faq{
     margin-top:0.5em;
     margin-right:30px;
     vertical-align: middle;
+}
+
+section#drop-faq{
+    width:100%;
+    padding-top:100px;
+    padding-bottom:80px;
+}
+
+/* definizione footer */
+
+.container-footer{
+    width:82%;
+    margin:0 auto;
+    max-width:1900px;
+    min-width:820px;
 }
 
 .top-footer ul {
@@ -708,6 +699,11 @@ section#drop-faq{
     font-size:1rem;
     font-weight: bold;
     padding-bottom:5px;
+}
+
+.mini-divider-footer{
+    width:102px;
+    border-bottom: 1 px solid lightgray;
 }
 
 .footer-lang{
@@ -737,16 +733,4 @@ section#drop-faq{
 .drop-language-selector span{
     margin-right:2px;
     padding:0;
-}
-
-.far {
-    margin-right:5px;
-}
-
-span .check-blue {
-    color:blue;
-}
-
-p.small-text.mese{
-    color:gray;
 }
