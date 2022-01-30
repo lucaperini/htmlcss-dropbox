@@ -68,7 +68,7 @@ header {
     background-color: white;
     -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
-    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.10);
     width:100%;
     position:fixed;
     z-index:2;
@@ -136,7 +136,7 @@ nav ul li a {
 
 
 
-/* definizione header e menù di navigazione */
+/* header e menù di navigazione */
 
 .header-right{
     width:50%;  
@@ -162,7 +162,7 @@ nav ul li a {
     text-decoration:none;
 }
 
-/* definizione sezione principale */
+/* sezione principale */
 
 .jumbotron-right{
     width:75%;
@@ -222,8 +222,7 @@ section#jumbotron .centered-content .jumbotron-left {
     
 }
 
-/* definizione sezione price-plan offerta dropbox */
-
+/* sezione price-plan offerta dropbox */
 
 section#drop-business .standard-plan{
     width: 30%;
@@ -262,7 +261,7 @@ section#drop-business .standard-plan{
     
 }
 
-span .check-blue {
+.fas.check-blue{
     color:blue;
 }
 
@@ -397,7 +396,7 @@ span .fas{
     width:100%;
 }
 
-/* definizione sezione partner */
+/* sezione partner */
 
 section#drop-partner{
     width:100%;
@@ -440,7 +439,7 @@ section#drop-partner{
     color:black;
 }
 
-/* definizione sezione servizi */
+/* sezione servizi */
 
 .drop-first-feature{
     width: calc(100% / 3)
@@ -501,7 +500,8 @@ section#drop-partner{
 .box-logo-one{
     width:50%;
     height:50%;
-    background-color: rgba(209,234,206,255);
+    background-color: rgb(172,210,160);
+    border: 10px solid rgb(213,232,207);
 }
 
 .box-logo-second{
@@ -598,7 +598,7 @@ section#drop-team .header-team {
     padding-bottom: 60px;
 }
 
-/* definizione sezione contattaci per prova gratutia */
+/* sezione contatti per prova gratutia */
 
 section#drop-trial{
     width:100%;
@@ -632,7 +632,7 @@ section#drop-trial{
     margin-left:200px;
 }
 
-/* definizione sezione FAQ */
+/* sezione FAQ */
 
 
 .faq-title{
@@ -673,7 +673,7 @@ section#drop-faq{
     padding-bottom:80px;
 }
 
-/* definizione footer */
+/* sezione footer */
 
 .container-footer{
     width:82%;
